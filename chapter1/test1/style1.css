@@ -1,0 +1,10 @@
+body {
+    height: 100px;
+    background: red;
+}
+
+@supports (color: black) {
+    body {
+        background: yellow;
+    }
+}
